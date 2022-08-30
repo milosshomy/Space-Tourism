@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/crew.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="img/favicon-32x32.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&display=swap"
+      rel="stylesheet"
+    />
+    <title>Space Tourism</title>
+  </head>
+  <body>
+    
+       <!-- Header -->
+
+       <header id="header">
+        <div class="logo">
+          <a href="index.html">
+            <img src="img/shared/logo.svg" alt="logo" />
+          </a>
+          <hr class="line d-none d-lg-block"></hr>
+          </div>
+        <nav id="nav">
+          <ul class="menu">
+            <li class="menu-item" aria-selected="true">
+              <span  class="page-number d-inline d-md-none d-lg-inline">00</span>
+              <a href="index.html" class="menu-link">Home</a>
+            </li>
+            <li class="menu-item" aria-selected="false">
+              <span  class="page-number d-inline d-md-none d-lg-inline">01</span>
+              <a href="destination.html" class="menu-link">Destination</a>
+            </li>
+            <li class="menu-item" aria-selected="false">
+              <span  class="page-number d-inline d-md-none d-lg-inline">02</span>
+              <a href="#" class="menu-link">Crew</a>
+            </li>
+            <li class="menu-item" aria-selected="false">
+              <span  class="page-number d-inline d-md-none d-lg-inline">03</span>
+              <a href="technology.html" class="menu-link">Technology</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </header>
+  
+      <!-- End of header -->
+
+      <!-- Main -->
+
+      <main id="main">   
+        <div class="container text-center text-sm-start">
+          <div class="row">
+            <div class="col mb-5 mb-md-0">
+              <span class="page-number opacity-25">02</span>
+              <span class="sub-title text-white text-uppercase">Meet your crew</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-6 text-center text-md-start order-2 order-md-1 d-flex  flex-wrap-reverse d-sm-block justify-content-center justify-content-sm-start">
+
+                     <!-- Douglas Hurley -->
+
+                    <article id="douglas-hurley" role="tabpanel">
+                        <h2 class="sub-heading">Commander</h2>
+                        <h1 class="heading">Douglas Hurley</h1>
+                        <p class="text">Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.</p>
+                    </article>
+
+                     <!--End of Douglas Hurley -->
+
+                     <!-- Mark Shuttleworth -->
+           
+                     <article id="mark-shuttleworth" hidden role="tabpanel">
+                        <h2 class="sub-heading">Mission Specialist </h2>
+                        <h1 class="heading">MARK SHUTTLEWORTH</h1>
+                        <p class="text">Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist.</p>
+                    </article>
+
+                      <!--End of Mark Shuttleworth -->
+
+                      <!-- Victor Glover -->
+
+                      <article id="victor-glover" hidden role="tabpanel">
+                        <h2 class="sub-heading">PILOT</h2>
+                        <h1 class="heading">Victor Glover</h1>
+                        <p class="text">Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer. </p>
+                    </article>
+
+                      <!--End of Victor Glover-->
+
+                      <!--Anousheh Ansari  -->
+
+                      <article id="anousheh-ansari" hidden role="tabpanel">
+                        <h2 class="sub-heading">Flight Engineer</h2>
+                        <h1 class="heading">Anousheh Ansari</h1>
+                        <p class="text">Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space.</p>
+                    </article>
+
+                      <!--End of Anousheh Ansari  -->
+
+                      <div class="dots" role="tablist">
+                        <button type="button" class="dot" aria-selected="true" data-image="douglas-harley-img" aria-controls="douglas-hurley" role="tab"></button>
+                        <button type="button" class="dot" aria-selected="false"  data-image="mark-shuttleworth-img" aria-controls="mark-shuttleworth" role="tab"></button>
+                        <button type="button" class="dot" aria-selected="false" data-image="victor-glover-img" aria-controls="victor-glover" role="tab"></button>
+                        <button type="button" class="dot" aria-selected="false" data-image="anousheh-ansari-img" aria-controls="anousheh-ansari" role="tab"></button>
+                      </div>
+
+                </div>
+                <div class="col-12 col-md-6 order-1 order-md-2 mb-5 mb-md-0">
+                  <div class="images">
+                    <img src="img/crew/image-douglas-hurley.png" alt="douglas harley" class="mw-100" id="douglas-harley-img">
+                    <img src="img/crew/image-mark-shuttleworth.png" alt="mark shuttleworth" class="mw-100" id="mark-shuttleworth-img" hidden>
+                    <img src="img/crew/image-victor-glover.png" alt="victor glover" class="mw-100" id="victor-glover-img" hidden>
+                    <img src="img/crew/image-anousheh-ansari.png" alt="anousheh ansari" class="mw-100" id="anousheh-ansari-img" hidden>
+                  </div>
+                </div>
+            </div>
+        </div>
+        </main>
+
+        <!-- End of Main -->
+
+      <script src="js/crew.js"></script>
+    </body>
+  </html>
