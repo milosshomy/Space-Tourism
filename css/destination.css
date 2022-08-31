@@ -251,6 +251,12 @@ body {
 
 /* Media Queries */
 
+@media all and (max-width: 992px) {
+  #nav {
+    width: 70%;
+  }
+}
+
 @media all and (max-width: 768px) {
   body {
     background-image: url(../img/destination/background-destination-tablet.jpg);
@@ -276,6 +282,7 @@ body {
   }
 
   #nav {
+    width: 60%;
     height: 100%;
     right: 0;
     top: 0;

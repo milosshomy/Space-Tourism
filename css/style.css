@@ -197,7 +197,7 @@ body {
   position: relative;
   display: block;
   text-decoration: none;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
 }
